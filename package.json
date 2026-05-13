@@ -2,7 +2,7 @@
   "name": "@grully/i18n-commands",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "files": [
     "dist/**/*"
@@ -15,14 +15,14 @@
   ],
   "description": "I18n wrapper for @grammyjs/commands that integrates with @grully/i18n",
   "devDependencies": {
-    "@types/bun": "^1.3.11",
-    "@types/node": "^25.6.2",
+    "@types/bun": "^1.3.14",
+    "@types/node": "^25.7.0",
     "@types/pug": "^2.0.10",
     "bun-dts": "^0.1.70"
   },
   "peerDependencies": {
     "@grammyjs/commands": "^1.3.2",
-    "@grully/i18n": "^1.0.2",
+    "@grully/i18n": "1.0.3",
     "grammy": "^1.42.0"
   },
   "scripts": {

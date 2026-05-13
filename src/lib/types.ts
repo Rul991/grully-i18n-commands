@@ -14,7 +14,7 @@ export type GrullyCommandsOptions<C extends Context> = {
      * 
      * Must contain a `locales` object mapping full keys (e.g., `"start_commands/help"`) to language-specific description factories.
      */
-    i18n: GrullyI18nFlavor['i18n']
+    i18n: Omit<GrullyI18nFlavor['i18n'], 'languageCode'>
     /**
      * An array of command groups created via `@grammyjs/commands`. 
      * 
